@@ -1,5 +1,5 @@
 //
-//  MyViewController.h
+//  MyAssetsCollectionViewLayout.h
 //  MyImagePickerControllerDemo
 //
 //  Created by Petey on 5/24/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyViewController : UIViewController
+@interface MyAssetsCollectionViewLayout : UICollectionViewFlowLayout
 
--(IBAction)btPress:(id)sender;
-
++ (instancetype)layout;
 @end
