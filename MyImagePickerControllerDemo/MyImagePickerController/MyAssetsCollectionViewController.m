@@ -135,7 +135,8 @@ NSString* assetsCellIdentifier = @"assetsCellIdentifier";
 -(void)assetsCollectionViewCell:(id)cell tapAtIndexPath:(NSIndexPath*)indexPath
 {
     MyAssetsBrowserViewController* assetsBrowserViewController = [[MyAssetsBrowserViewController alloc] init];
-    
-    [self.navigationController pushViewController:assetsBrowserViewController animated:YES];
+    assetsBrowserViewController.assetsArray = self.assets;
+    assetsBrowserViewController.currentIndexPath = indexPath;
+    [self.navigationController pushViewController:assetsBrowserViewController animated:NO];
 }
 @end

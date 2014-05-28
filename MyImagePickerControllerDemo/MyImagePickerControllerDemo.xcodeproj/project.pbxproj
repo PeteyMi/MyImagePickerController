@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401CA0D719323EF200B735BD /* MyPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 401CA0D419323EF200B735BD /* MyPhotoBrowser.m */; };
-		401CA0D819323EF200B735BD /* MyPhotoPageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 401CA0D619323EF200B735BD /* MyPhotoPageVIew.m */; };
 		401CA0DB19323F4400B735BD /* MyAssetsBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401CA0DA19323F4400B735BD /* MyAssetsBrowserViewController.m */; };
+		401EC976193392460034456F /* MyPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 401EC973193392460034456F /* MyPhotoBrowser.m */; };
+		401EC977193392460034456F /* MyPhotoPageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 401EC975193392460034456F /* MyPhotoPageVIew.m */; };
 		40294E3A1930DC0C00E30B5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40294E391930DC0C00E30B5A /* Foundation.framework */; };
 		40294E3C1930DC0C00E30B5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40294E3B1930DC0C00E30B5A /* CoreGraphics.framework */; };
 		40294E3E1930DC0C00E30B5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40294E3D1930DC0C00E30B5A /* UIKit.framework */; };
@@ -43,12 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		401CA0D319323EF200B735BD /* MyPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotoBrowser.h; sourceTree = "<group>"; };
-		401CA0D419323EF200B735BD /* MyPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotoBrowser.m; sourceTree = "<group>"; };
-		401CA0D519323EF200B735BD /* MyPhotoPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotoPageView.h; sourceTree = "<group>"; };
-		401CA0D619323EF200B735BD /* MyPhotoPageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotoPageVIew.m; sourceTree = "<group>"; };
 		401CA0D919323F4400B735BD /* MyAssetsBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAssetsBrowserViewController.h; sourceTree = "<group>"; };
 		401CA0DA19323F4400B735BD /* MyAssetsBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAssetsBrowserViewController.m; sourceTree = "<group>"; };
+		401EC972193392460034456F /* MyPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotoBrowser.h; sourceTree = "<group>"; };
+		401EC973193392460034456F /* MyPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotoBrowser.m; sourceTree = "<group>"; };
+		401EC974193392460034456F /* MyPhotoPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPhotoPageView.h; sourceTree = "<group>"; };
+		401EC975193392460034456F /* MyPhotoPageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPhotoPageVIew.m; sourceTree = "<group>"; };
 		40294E361930DC0C00E30B5A /* MyImagePickerControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyImagePickerControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40294E391930DC0C00E30B5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40294E3B1930DC0C00E30B5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,13 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		401CA0D219323EF200B735BD /* MyPhotoBrowser */ = {
+		401EC971193392460034456F /* MyPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				401CA0D319323EF200B735BD /* MyPhotoBrowser.h */,
-				401CA0D419323EF200B735BD /* MyPhotoBrowser.m */,
-				401CA0D519323EF200B735BD /* MyPhotoPageView.h */,
-				401CA0D619323EF200B735BD /* MyPhotoPageVIew.m */,
+				401EC972193392460034456F /* MyPhotoBrowser.h */,
+				401EC973193392460034456F /* MyPhotoBrowser.m */,
+				401EC974193392460034456F /* MyPhotoPageView.h */,
+				401EC975193392460034456F /* MyPhotoPageVIew.m */,
 			);
 			path = MyPhotoBrowser;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 		40294E2D1930DC0C00E30B5A = {
 			isa = PBXGroup;
 			children = (
-				401CA0D219323EF200B735BD /* MyPhotoBrowser */,
+				401EC971193392460034456F /* MyPhotoBrowser */,
 				40294E821930DCDF00E30B5A /* MyImagePickerController */,
 				40294E3F1930DC0C00E30B5A /* MyImagePickerControllerDemo */,
 				40294E5E1930DC0C00E30B5A /* MyImagePickerControllerDemoTests */,
@@ -312,14 +312,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4053D83D1930EF4F00D17532 /* MyAssetsCollectionViewLayout.m in Sources */,
-				401CA0D719323EF200B735BD /* MyPhotoBrowser.m in Sources */,
 				401CA0DB19323F4400B735BD /* MyAssetsBrowserViewController.m in Sources */,
 				40294E501930DC0C00E30B5A /* MyViewController.m in Sources */,
-				401CA0D819323EF200B735BD /* MyPhotoPageVIew.m in Sources */,
+				401EC976193392460034456F /* MyPhotoBrowser.m in Sources */,
 				40294E8B1930E09400E30B5A /* MyImagePickerRootViewController.m in Sources */,
 				40294E4A1930DC0C00E30B5A /* MyAppDelegate.m in Sources */,
 				403D49F91931BF4B006C82EB /* MyImagePickerGroupCell.m in Sources */,
 				4053D83A1930EE8500D17532 /* MyAssetsCollectionViewController.m in Sources */,
+				401EC977193392460034456F /* MyPhotoPageVIew.m in Sources */,
 				40294E851930DCF900E30B5A /* MyImagePickerViewController.m in Sources */,
 				40294E461930DC0C00E30B5A /* main.m in Sources */,
 				4053D8401930F24700D17532 /* MyAssetsCollectionViewCell.m in Sources */,

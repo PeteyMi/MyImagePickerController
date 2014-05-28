@@ -38,6 +38,7 @@
     if (self) {
         self.clipsToBounds = YES;
         
+        self.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;;
         //Setup paging scrolling view
         CGRect pagingScrollViewFrame = [self frameForPagingScrollView];
         _scrollView = [[UIScrollView alloc] initWithFrame:pagingScrollViewFrame];
@@ -62,7 +63,7 @@
 
 -(void)dealloc
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self forKeyPath:notficationPhotoPageViewSingleTap];
+  //  [[NSNotificationCenter defaultCenter] removeObserver:self forKeyPath:notficationPhotoPageViewSingleTap];
 }
 
 -(void)setBackgroundColor:(UIColor *)backgroundColor
@@ -116,6 +117,7 @@
 }
 -(void)reloadData
 {
+    _reloadDataIfNeeded = NO;
     for (MyPhotoPageView* item in _visiblePages) {
         [item removeFromSuperview];
     }

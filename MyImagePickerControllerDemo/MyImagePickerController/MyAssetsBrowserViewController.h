@@ -10,4 +10,6 @@
 
 @interface MyAssetsBrowserViewController : UIViewController
 
+@property(nonatomic, retain) NSArray*   assetsArray;
+@property(nonatomic, retain) NSIndexPath* currentIndexPath;
 @end
